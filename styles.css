@@ -41,6 +41,7 @@ h1 {
     justify-content: center;
     margin-top: 15px;
     font-size: 2.5rem;
+    text-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
 }
 
 .greeting {
@@ -57,27 +58,34 @@ main {
 h2 {
     display: flex;
     justify-content: center;
+    text-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+    font-size: 2.2rem;
 }
 
-/* .description { 
-    width: 800px;
-    display: flex;
-    justify-content: center;
-}
-
-p {
+.wrapper {
+    max-width: 800px;
+    text-align: center;
     margin: 0 auto;
-}  ?????????????????? */ 
 
-.experience > img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10vw;
 }
 
-.experience {
+.description, .experience {
+    margin-top: 5vh;
+}
+
+.description {
+    margin-bottom: 5vh;
+}
+
+#github {
+    width: 6vw;
+    margin: 15px 30px;
+    padding: 3px;
+}
+
+#heart {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 16px;
+    padding: 6px;
 }
